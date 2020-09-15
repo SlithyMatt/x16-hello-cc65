@@ -54,3 +54,5 @@ dkms.conf
 # cc65 build artifacts
 *.list
 *.mmap
+*.s
+*.PRG

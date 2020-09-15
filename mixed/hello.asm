@@ -1,12 +1,6 @@
-.include "x16.inc"
+.include "../asm/x16.inc"
 
-.org $080D
-.segment "STARTUP"
-.segment "INIT"
-.segment "ONCE"
-.segment "CODE"
-
-   jmp start
+.export __hello
 
 message: .byte "hello, world!"
 end_msg:
@@ -14,7 +8,7 @@ end_msg:
 NEWLINE = $0D
 UPPERCASE = $8E
 
-start:
+__hello:
    ; force uppercase
    lda #UPPERCASE
    jsr CHROUT
