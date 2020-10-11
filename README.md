@@ -229,3 +229,7 @@ then all assembly either linked in, or inlined.
 
 For more information on how to write code for cc65, check out the
 [documentation](https://cc65.github.io/doc/).
+
+See video on YouTube:
+
+[![Hello, cc65!](http://img.youtube.com/vi/t0jU2MjvCM0/0.jpg)](https://youtu.be/t0jU2MjvCM0)
