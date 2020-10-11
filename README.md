@@ -106,7 +106,7 @@ $ cd /cygdrive/c/Users/Fred/workspace/x16-hello-cc65
 $ make
 ```
 
-And that's it! All the game code, data, tools, and tests should be built.
+And that's it! All the programs should be built.
 
 # Building with Debian/Ubuntu Linux
 
@@ -161,7 +161,7 @@ $ cd ~/workspace/x16-hello-cc65
 $ make
 ```
 
-And that's it! All the game code, data, tools, and tests should be built.
+And that's it! All the programs should be built.
 
 # Troubleshooting
 
