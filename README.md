@@ -10,6 +10,25 @@ How you build your code is different depending on what platform you are running.
 At this point, Windows is supported through Cygwin, and Linux is supported with
 special instructions here for Debian/Ubuntu distributions.
 
+# Building with Windows (Windows Subsystem for Linux)
+
+The build toolchain for this project requires a GNU environment, which is
+natively available on most Linux and Unix (include Mac) platforms. For
+Windows 10, a great option is to install the Windows Subsystem for Linux, 
+which will give you a genuine Linux distro running on your Windows PC.
+
+If you do not have WSL installed, follow the instructions found here:
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+You can install a Ubuntu or Debian distro during this process. Having done so,
+follow the instructions under **Building with Debian/Ubuntu Linux** to build
+**cc65** and the sample code from this repo.
+
+Another advantage of using WSL is that you can develop your projects using
+the VS Code editor, by installing the Remote Development extension. Follow
+the instrcutions here to do that:
+[https://code.visualstudio.com/docs/remote/wsl](https://code.visualstudio.com/docs/remote/wsl)
+
 # Building with Windows (Cygwin)
 
 The build toolchain for this project requires a GNU environment, which is
