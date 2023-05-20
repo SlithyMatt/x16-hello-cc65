@@ -25,12 +25,11 @@ start:
    sta ZP_PTR_1+1
    ldy #0
 @loop:
-   cpy #(end_msg-message)
-   beq @done
    lda (ZP_PTR_1),y
    jsr CHROUT
    iny
-   bra @loop
+   cpy #(end_msg-message)
+   bne @loop
 @done:
    ; print newline
    lda #NEWLINE
